@@ -2,5 +2,5 @@
 
 Group B:
 - Carolina Pinedo
-- Isabel Zihao
+- Isabel Zilhão
 - Maria Inês Barbosa
