@@ -5,6 +5,9 @@ body {
   padding: 20px;
 }
 
+h1, h2{
+  color: #166d5d;
+}
 h1 {
   text-align: center;
   font-size: 35px;
@@ -71,7 +74,10 @@ footer img {
 .slide a {
   color: white;
 }
-
+.container2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 /* -- Index Page -- */
 
 /* Intro  */
@@ -94,7 +100,7 @@ footer img {
 
 /* Blog Page */
 .blogintro h1 {
-  margin-top: 50px;
+  margin-top: 20px;
   color: #166d5d;
 }
 
@@ -109,9 +115,10 @@ footer img {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  margin-left: 80px;
+  margin-left: 50px;
   margin-right: 50px;
   border: #166d5d solid 2px;
+  border-radius: 5px;
 }
 
 .post img {
