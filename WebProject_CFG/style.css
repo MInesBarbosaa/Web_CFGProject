@@ -165,13 +165,12 @@ footer img {
 /*Contact Page */
 /* Contact Details Section */
 .contact-details {
-  margin-bottom: 20px;
   text-align: center;
   background-color: #1da088;
   color: beige;
   border: 1px solid rgb(124, 124, 124);
   padding: 20px 20px;
-  margin: 40px 75px;
+  margin: 10px 50px 75px;
 }
 
 .contact-details p {
@@ -182,12 +181,10 @@ footer img {
 
 /* FAQs Section */
 .faqs {
-  background-color: #1da088;
-  margin-bottom: 20px;
+  background-color: #1da088; 
   border: 1px solid rgb(124, 124, 124);
   padding: 10px 20px;
-  margin: 40px 75px;
-  margin-top: 60px;
+  margin: 10px 50px 75px;
 }
 
 .faqs h2 {
@@ -215,7 +212,7 @@ footer img {
 .contact-form {
   background-color: #1da088;
   padding: 10px 20px;
-  margin: 40px 75px;
+  margin: 10px 50px 75px;
   border: 1px solid rgb(124, 124, 124);
 }
 
