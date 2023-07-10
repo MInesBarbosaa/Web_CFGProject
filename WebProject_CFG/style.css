@@ -113,11 +113,16 @@ footer img {
 .post {
   display: flex;
   align-items: center;
+}
+.postbox{
   margin-bottom: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
   border: #166d5d solid 2px;
   border-radius: 5px;
+}
+.postboximg{
+  width: 300px;
+  max-height: 168px;
+  margin-right: 0px;
 }
 
 .post img {
