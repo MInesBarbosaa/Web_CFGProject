@@ -171,6 +171,7 @@ footer img {
   border: 1px solid rgb(124, 124, 124);
   padding: 20px 20px;
   margin: 10px 50px 75px;
+  border-radius: 5px;
 }
 
 .contact-details p {
@@ -185,6 +186,7 @@ footer img {
   border: 1px solid rgb(124, 124, 124);
   padding: 10px 20px;
   margin: 10px 50px 75px;
+  border-radius: 5px;
 }
 
 .faqs h2 {
@@ -214,6 +216,7 @@ footer img {
   padding: 10px 20px;
   margin: 10px 50px 75px;
   border: 1px solid rgb(124, 124, 124);
+  border-radius: 5px;
 }
 
 .contact-form h2 {
