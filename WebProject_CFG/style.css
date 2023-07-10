@@ -13,7 +13,9 @@ h2 {
 h1 {
   font-size: 35px;
 }
-h2{font-size: 20px;}
+h2 {
+  font-size: 20px;
+}
 
 h2 {
   margin-bottom: 10px;
@@ -123,24 +125,28 @@ footer img {
   max-height: 168px;
 }
 
-.postBlogImg{
+.postBlogImg {
   margin-right: 30px;
 }
 
-.postDestinationsImg{
-  margin-left:30px;
+.postDestinationsImg {
+  margin-left: 30px;
 }
 
 .post div {
   flex: 1;
-  ;
 }
-.postBlogText{margin-right: 50px}
-
-.postDestinationsText{margin-left: 50px
-
+.postBlogText {
+  margin-right: 50px;
 }
 
+.postDestinationsText {
+  margin-left: 50px;
+}
+.post li {
+  list-style: none;
+  padding-bottom: 10px;
+}
 .post h2 {
   font-weight: bold;
   font-size: 20px;
@@ -192,7 +198,7 @@ footer img {
 
 /* FAQs Section */
 .faqs {
-  background-color: #1da088; 
+  background-color: #1da088;
   border: 1px solid rgb(124, 124, 124);
   padding: 10px 20px;
   margin: 10px 50px 75px;
@@ -346,4 +352,4 @@ footer img {
 }
 /*.atraction img{
   width:min-content;
-}
+}*/
