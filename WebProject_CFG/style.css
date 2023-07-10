@@ -113,22 +113,22 @@ footer img {
 .post {
   display: flex;
   align-items: center;
-}
-.postbox{
   margin-bottom: 40px;
   border: #166d5d solid 2px;
   border-radius: 5px;
 }
-.postboximg{
-  width: 300px;
-  max-height: 168px;
-  margin-right: 0px;
-}
 
 .post img {
   width: 300px;
-  margin-right: 30px;
   max-height: 168px;
+}
+
+.postBlog{
+  margin-right: 30px;
+}
+
+.postDestinations{
+  margin-left:30px;
 }
 
 .post div {
