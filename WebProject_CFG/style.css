@@ -123,17 +123,22 @@ footer img {
   max-height: 168px;
 }
 
-.postBlog{
+.postBlogImg{
   margin-right: 30px;
 }
 
-.postDestinations{
+.postDestinationsImg{
   margin-left:30px;
 }
 
 .post div {
   flex: 1;
-  margin-right: 50px;
+  ;
+}
+.postBlogText{margin-right: 50px}
+
+.postDestinationsText{margin-left: 50px
+
 }
 
 .post h2 {
