@@ -108,7 +108,6 @@ footer img {
 }
 
 .blogintro h2 {
-  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -143,13 +142,13 @@ footer img {
 .postDestinationsText {
   margin-left: 50px;
 }
+
 .post li {
   list-style: none;
   padding-bottom: 10px;
 }
 .post h2 {
   font-weight: bold;
-  font-size: 20px;
   color: #333;
   text-align: left;
   margin-top: 10px;
@@ -207,7 +206,6 @@ footer img {
 
 .faqs h2 {
   padding-bottom: 10px;
-  text-align: center;
   color: beige;
 }
 
@@ -236,7 +234,6 @@ footer img {
 }
 
 .contact-form h2 {
-  text-align: center;
   color: beige;
 }
 
