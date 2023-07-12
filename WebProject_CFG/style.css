@@ -101,13 +101,11 @@ footer img {
   align-items: center;
 }
 
-.intro img {
-  margin: 0 12px;
-}
-
+.intro img,
 .intro p {
   margin: 0 12px;
 }
+
 .carousel-caption {
   background-color: var(--green2);
   border: 1px solid var(--beige);
@@ -157,9 +155,9 @@ footer img {
 .post h2 {
   font-weight: bold;
   text-align: left;
-  margin-top: 10px;
 }
 
+.post h2,
 .post p {
   margin-top: 10px;
 }
@@ -187,11 +185,10 @@ footer img {
   color: var(--beige);
   border: 1px solid var(--green2);
   padding: 20px 20px;
-  margin: 10px 50px 75px;
   border-radius: var(--borderradius);
 }
 
-.contact-details p {
+.contact-details  {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -201,7 +198,6 @@ footer img {
   background-color: var(--green2);
   border: 1px solid var(--green2);
   padding: 10px 20px;
-  margin: 10px 50px 75px;
   border-radius: var(--borderradius);
 }
 
@@ -224,12 +220,16 @@ footer img {
   color: var(--beige);
   margin-bottom: 10px;
 }
+.contact-details,
+.faqs,
+.contact-form {
+  margin: 10px 50px 75px;
+}
 
 /* Contact Form Section */
 .contact-form {
   background-color: var(--green2);
   padding: 10px 20px;
-  margin: 10px 50px 75px;
   border: 1px solid var(--green2);
   border-radius: var(--borderradius);
 }
