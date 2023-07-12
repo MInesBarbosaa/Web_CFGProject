@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Navbar */
@@ -109,7 +109,6 @@ footer img {
 .carousel-caption {
   background-color: var(--green2);
   border: 1px solid var(--beige);
-  color: #333;
   padding: 10px;
   border-radius: 5px;
 }
@@ -163,14 +162,12 @@ footer img {
 }
 .post h2 {
   font-weight: bold;
-  color: #333;
   text-align: left;
   margin-top: 10px;
 }
 
 .post p {
   margin-top: 10px;
-  color: #666;
   line-height: 1.6;
   text-align: justify;
 }
