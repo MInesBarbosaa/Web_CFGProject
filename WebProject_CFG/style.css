@@ -4,6 +4,9 @@
   --green2: #1da088;
   --green3: #85beb4;
   --beige: beige;
+  --borderradius1: 20px;
+  --borderradius2: 2em;
+  --borderradius3: 5px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -33,7 +36,7 @@ nav {
   align-items: center;
   padding: 10px 20px;
   color: var(--beige);
-  border-radius: 20px;
+  border-radius: var(--borderradius1);
 }
 
 nav a {
@@ -57,7 +60,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
-  border-radius: 20px;
+  border-radius: var(--borderradius1);
 }
 
 footer p {
@@ -98,7 +101,7 @@ footer img {
 
 .intro img {
   margin: 0 12px;
-  border-radius: 1em;
+  border-radius: var(--borderradius2);
 }
 
 .intro p {
@@ -110,7 +113,7 @@ footer img {
   background-color: var(--green2);
   border: 1px solid var(--beige);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: var(--borderradius3);
 }
 
 /*Blog Page /*
@@ -129,7 +132,7 @@ footer img {
   align-items: center;
   margin-bottom: 40px;
   border: var(--green1) solid 2px;
-  border-radius: 5px;
+  border-radius: var(--borderradius3);
 }
 
 .post img {
@@ -196,7 +199,7 @@ footer img {
   border: 1px solid var(--green2);
   padding: 20px 20px;
   margin: 10px 50px 75px;
-  border-radius: 5px;
+  border-radius: var(--borderradius3);
 }
 
 .contact-details p {
@@ -211,7 +214,7 @@ footer img {
   border: 1px solid var(--green2);
   padding: 10px 20px;
   margin: 10px 50px 75px;
-  border-radius: 5px;
+  border-radius: var(--borderradius3);
 }
 
 .faqs h2 {
@@ -240,7 +243,7 @@ footer img {
   padding: 10px 20px;
   margin: 10px 50px 75px;
   border: 1px solid var(--green2);
-  border-radius: 5px;
+  border-radius: var(--borderradius3);
 }
 
 .contact-form h2 {
