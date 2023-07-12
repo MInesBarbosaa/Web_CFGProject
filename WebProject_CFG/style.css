@@ -4,9 +4,7 @@
   --green2: #1da088;
   --green3: #85beb4;
   --beige: beige;
-  --borderradius1: 20px;
-  --borderradius2: 2em;
-  --borderradius3: 5px;
+  --borderradius: 5px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -31,6 +29,9 @@ h2 {
 p {
   line-height: 1.6;
 }
+img {
+  border-radius: var(--borderradius);
+}
 
 /* Navbar */
 nav {
@@ -39,7 +40,7 @@ nav {
   align-items: center;
   padding: 10px 20px;
   color: var(--beige);
-  border-radius: var(--borderradius1);
+  border-radius: var(--borderradius);
 }
 
 nav a {
@@ -63,12 +64,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
-  border-radius: var(--borderradius1);
+  border-radius: var(--borderradius);
 }
 
 footer p {
   margin: 0;
-  font-size: 20px;
 }
 
 footer div {
@@ -77,15 +77,13 @@ footer div {
 }
 
 footer img {
-  height: 30px;
+  height: 20px;
   margin-left: 10px;
 }
 .slide {
   margin: auto;
 }
-.slide img {
-  border-radius: var(--borderradius2);
-}
+
 .slide a {
   color: var(--beige);
 }
@@ -104,7 +102,6 @@ footer img {
 
 .intro img {
   margin: 0 12px;
-  border-radius: var(--borderradius2);
 }
 
 .intro p {
@@ -115,7 +112,7 @@ footer img {
   background-color: var(--green2);
   border: 1px solid var(--beige);
   padding: 10px;
-  border-radius: var(--borderradius3);
+  border-radius: var(--borderradius);
 }
 
 /*Blog Page /*
@@ -134,7 +131,7 @@ footer img {
   align-items: center;
   margin-bottom: 40px;
   border: var(--green1) solid 2px;
-  border-radius: var(--borderradius3);
+  border-radius: var(--borderradius);
 }
 
 .post img {
@@ -200,7 +197,7 @@ footer img {
   border: 1px solid var(--green2);
   padding: 20px 20px;
   margin: 10px 50px 75px;
-  border-radius: var(--borderradius3);
+  border-radius: var(--borderradius);
 }
 
 .contact-details p {
@@ -214,7 +211,7 @@ footer img {
   border: 1px solid var(--green2);
   padding: 10px 20px;
   margin: 10px 50px 75px;
-  border-radius: var(--borderradius3);
+  border-radius: var(--borderradius);
 }
 
 .faqs h2 {
@@ -243,7 +240,7 @@ footer img {
   padding: 10px 20px;
   margin: 10px 50px 75px;
   border: 1px solid var(--green2);
-  border-radius: var(--borderradius3);
+  border-radius: var(--borderradius);
 }
 
 .contact-form h2 {
