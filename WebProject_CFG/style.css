@@ -133,6 +133,9 @@ footer img {
   border: var(--green1) solid 2px;
   border-radius: var(--borderradius);
 }
+.destinationAlignImg {
+  justify-content: space-around;
+}
 
 .post img {
   width: 300px;
