@@ -257,6 +257,7 @@ footer img {
   background-color: var(--green1);
   color: var(--beige);
   border: none;
+  border-radius: var(--borderradius);
   cursor: pointer;
 }
 
