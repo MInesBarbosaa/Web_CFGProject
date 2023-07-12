@@ -28,6 +28,9 @@ h2 {
   font-size: 20px;
   margin-bottom: 20px;
 }
+p {
+  line-height: 1.6;
+}
 
 /* Navbar */
 nav {
@@ -81,7 +84,7 @@ footer img {
   margin: auto;
 }
 .slide img {
-  border-radius: 2em;
+  border-radius: var(--borderradius2);
 }
 .slide a {
   color: var(--beige);
@@ -107,7 +110,6 @@ footer img {
 .intro p {
   margin: 0 12px;
   text-align: justify;
-  line-height: 1.6;
 }
 .carousel-caption {
   background-color: var(--green2);
@@ -171,7 +173,6 @@ footer img {
 
 .post p {
   margin-top: 10px;
-  line-height: 1.6;
   text-align: justify;
 }
 
@@ -203,7 +204,6 @@ footer img {
 }
 
 .contact-details p {
-  line-height: 1.6;
   margin-left: 50px;
   margin-right: 50px;
 }
